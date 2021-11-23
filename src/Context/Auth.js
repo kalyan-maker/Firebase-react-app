@@ -54,7 +54,7 @@ export function AuthProvider({ children }) {
   function forgotPassword(email) {
     const auth = getAuth(app);
     return sendPasswordResetEmail(auth, email, {
-      url: `https://localhost:3000`,
+      url: `https://react-firebase-quizapp.herokuapp.com/`,
     });
   }
 
