@@ -1,0 +1,43 @@
+.videos {
+  width: 100%;
+  justify-items: center;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background-color: aliceblue;
+}
+
+.videos:hover {
+  box-shadow: 0 0 15px 0 #e5e5e5;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.videos img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.videos .qmeta {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 6px;
+}
+
+.videos .qmeta p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .videos {
+    width: 100%;
+  }
+}
